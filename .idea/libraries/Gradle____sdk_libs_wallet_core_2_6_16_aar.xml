@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: ./sdk/libs/wallet-core-2.6.16.aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a11fac2c211b48dd71966b8b9d458b09/jetified-wallet-core-2.6.16/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a11fac2c211b48dd71966b8b9d458b09/jetified-wallet-core-2.6.16/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/a11fac2c211b48dd71966b8b9d458b09/jetified-wallet-core-2.6.16/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

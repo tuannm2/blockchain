@@ -3,7 +3,7 @@ plugins {
     id 'maven-publish'
 }
 apply plugin: 'com.github.dcendents.android-maven'
-group = 'com.github.Chainverse'
+group = 'com.github.tuannm2'
 
 android {
     compileSdkVersion 30
@@ -32,6 +32,7 @@ android {
 }
 
 dependencies {
+    implementation files('libs/wallet-core-2.6.16.aar')
     compile 'androidx.appcompat:appcompat:1.0.0'
     compile 'com.google.android.material:material:1.0.0'
     compile 'com.squareup.retrofit2:retrofit:2.8.2'
@@ -46,7 +47,7 @@ dependencies {
     compile 'com.google.protobuf:protobuf-java:3.12.0'
 //    compile "com.trustwallet:wallet-core:2.6.16"
 //    implementation files('libs/wallet-core-2.6.16.aar')
-    implementation project(":trustwalletcore")
+//    implementation project(":trustwalletcore")
     compile "androidx.security:security-crypto:1.1.0-alpha03"
 
 }
@@ -60,9 +61,9 @@ afterEvaluate {
                 from components.release
 
                 // You can then customize attributes of the publication as shown below.
-                groupId = 'com.github.Chainverse'
-                artifactId = 'android-sdk'
-                version = 'v1.0.9'
+                groupId = 'com.github.tuannm2'
+                artifactId = 'blockchain'
+                version = 'v1.0.0'
             }
         }
     }
